@@ -15,12 +15,34 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.isActive {
+  background-color: black;
+  color: white;
+}
+
+.notActive {
+  background-color: bisque;
+  color: black;
+}
+
+.editor {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px black solid;
+  margin: 1em;
+  padding: 0 1em;
+}
+
+.content{
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px greenyellow solid;
+  margin: 1em;
+  padding: 0 1em;
+}
+
+button{
+  margin: 5px;
 }

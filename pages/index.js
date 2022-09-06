@@ -36,6 +36,7 @@ export default function Home() {
             <a
               href="https://github.com/spikeoze/tiptap-text-editor-"
               target="_blank"
+              rel="noreferrer"
               style={{ color: "blue", textDecoration: "underline" }}
             >
               source code
